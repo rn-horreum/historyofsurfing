@@ -1,0 +1,55 @@
+body {
+  font-family: 'Average Sans', sans-serif;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/533a3f6be4b0baa8f843abe7/1540612090651-CYB3HESLOS64RO2NJLGH/ke17ZwdGBToddI8pDm48kAJsswp0EXV6qc0SOJ8DOsUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_E7dXkCi7l7eF32s1E_vQW45WD95yMX6bcbEP6L1pnbQgytvpF9JKWwbDEjqe30p/ThePerfectHideaway_UluwatuSurfVillas23.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aquamarine;
+}
+
+h1, h2 {
+  font-family: 'Shadows Into Light', sans-serif;
+  color: yellow;
+}
+
+p {
+  margin: 5px 25px;
+}
+
+.profiles {
+  margin-left: 160px;
+}
+
+div.image.profile {
+  display: table;
+  width: 200px;
+  height: 175px;
+  float: left;
+  margin: 20px 20px;
+}
+div.image.profile img {
+  width: 200px;
+  height: 200px;
+}
+.imageWithCaption {
+  text-align: center;
+}
+
+.caption {
+  display: table-cell;
+  vertical-align: center;
+  width: 200px;
+  height: 175px;
+  float: left;
+  text-align: center;
+}
+
+.parent {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.child {
+  postion: absolute;
+  top: 50%;
+}
